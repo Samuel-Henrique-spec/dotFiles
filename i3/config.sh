@@ -191,3 +191,7 @@ bar {
 
 exec_always xrandr -s 1920x1080 -r 120.00
 exec_always nitrogen --restore
+
+
+#i3locks
+bindsym $mod+Shift+p exec i3lock -i ~/Imagens/Wpp/gnu-linux-simple-wallpaper.png
